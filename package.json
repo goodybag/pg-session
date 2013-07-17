@@ -4,7 +4,9 @@
   "description": "Postgres connect session store",
   "main": "index.js",
   "dependencies": {
-    "okay": "~0.3.0",
+    "okay": "~0.3.0"
+  },
+  "peerDependencies": {
     "pg": "~2.2.0",
     "express": "~3.3.4"
   },
