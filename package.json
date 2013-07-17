@@ -1,12 +1,10 @@
 {
   "name": "pg-session",
   "version": "1.0.0",
-  "description": "Postgres Connect session store",
+  "description": "Postgres connect session store",
   "main": "index.js",
   "dependencies": {
     "okay": "~0.3.0",
-  },
-  "peerDependencies": {
     "pg": "~2.2.0",
     "express": "~3.3.4"
   },
@@ -19,12 +17,13 @@
     "url": "git://github.com/goodybag/pg-session.git"
   },
   "keywords": [
+    "postgres",
+    "pg",
     "session",
-    "connect",
-    "postgres"
+    "connect"
   ],
   "author": "Paul Frazee, John Fawcett",
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "5993b4cb80eba6632d1b211c6fe6286f0a7fff7b"
+  "gitHead": "80557eb05487ff4f1be18af496c70202f2d3916e"
 }
