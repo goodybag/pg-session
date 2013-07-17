@@ -1,5 +1,4 @@
-create table if not exists "pg_sessions" (
-  id          serial,
+create table if not exists "sessions" (
   sid         text,
   data        json,
   expiration  timestamp
